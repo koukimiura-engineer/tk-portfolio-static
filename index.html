@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Vue.js / React / TypeScriptを中心に、要件整理から設計・実装・保守運用まで対応するフロントエンド主軸のフルスタックエンジニアのポートフォリオ。" />
+  <meta name="theme-color" content="#0d1117" />
+  <title>TK | Frontend-focused Full Stack Engineer</title>
+  <link rel="icon" href="public/favicon-32.png" type="image/png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="public/apple-touch-icon.png" sizes="180x180" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="app-shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="トップへ"><span class="brand-mark">TK</span><span class="brand-label">Web
+          Engineer</span></a>
+      <nav class="desktop-nav" aria-label="メインナビゲーション">
+        <a href="#about">About</a><a href="#strengths">Strengths</a><a href="#skills">Skills</a><a
+          href="#experience">Experience</a><a href="#works">Works</a><a href="#ai">AI</a><a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-button" aria-label="メニューを開閉" aria-expanded="false">☰</button>
+    </header>
+    <nav class="mobile-nav" aria-label="モバイルナビゲーション" hidden>
+      <a href="#about">About</a><a href="#strengths">Strengths</a><a href="#skills">Skills</a><a
+        href="#experience">Experience</a><a href="#works">Works</a><a href="#ai">AI</a><a href="#contact">Contact</a>
+    </nav>
+
+    <main id="top">
+      <section class="hero section-pad">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <figure class="hero-avatar">
+              <img src="public/profile.png" alt="プロフィール画像" width="120" height="120">
+            </figure>
+            <div class="status-pill"><span></span> Open to opportunities</div>
+            <p class="hero-kicker">Frontend-focused Full Stack Engineer</p>
+            <h1>フロントエンドを主軸に、<br><span>要件から運用まで。</span></h1>
+            <p class="hero-lead">Web開発経験6年以上。Vue.js / React /
+              TypeScriptを中心に、Django・Node.jsによるAPI開発、障害調査、リリース、保守運用まで一人称で推進します。</p>
+            <div class="hero-actions"><a class="primary-button" href="#works">実績を見る ↗</a><a class="secondary-button"
+                href="#contact">Contact ✉</a></div>
+            <dl class="hero-stats">
+              <div>
+                <dt>6+</dt>
+                <dd>Years in Web Development</dd>
+              </div>
+              <div>
+                <dt>5</dt>
+                <dd>Years with Vue.js</dd>
+              </div>
+              <div>
+                <dt>FE + BE</dt>
+                <dd>Cross-functional Delivery</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="hero-panel" aria-hidden="true">
+            <div class="window-bar"><i></i><i></i><i></i><span>profile.ts</span></div>
+            <pre><code>const engineer = {
+  focus: "Frontend",
+  stack: [
+    "Vue.js",
+    "React",
+    "TypeScript",
+    "Django",
+    "Node.js"
+  ],
+  delivery: [
+    "Requirements",
+    "Design",
+    "Implementation",
+    "Release",
+    "Operation"
+  ]
+}</code></pre>
+            <div class="floating-badge badge-one">✓ Production ready</div>
+            <div class="floating-badge badge-two">✦ AI-assisted</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section-pad about-section">
+        <div class="about-grid">
+          <div class="section-heading"><span class="eyebrow">ABOUT</span>
+            <h2>担当領域を限定せず、成果に必要な開発を進める。</h2>
+          </div>
+          <div class="about-copy">
+            <p>Vue.js / React / TypeScriptを用いた画面設計・実装を得意領域としつつ、Node.js、Django、AWSを用いたAPI・バッチ・運用基盤の開発にも対応してきました。</p>
+            <p>直近のスポーツ関連サービスでは、フロントエンド主担当として参画後、Django APIの改修、問い合わせ起点の障害調査、外注コード受け入れ、Docker / Cloudflare
+              Tunnelを用いた検証環境構築まで担当しています。</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="strengths" class="section-pad section-alt">
+        <div class="section-heading"><span class="eyebrow">STRENGTHS</span>
+          <h2>現場で提供できる価値</h2>
+          <p>機能を実装するだけでなく、仕様の整理、障害の切り分け、リリース後の安定稼働まで責任を持ちます。</p>
+        </div>
+        <div class="strength-grid">
+          <article class="strength-card">
+            <div class="card-number">01</div>
+            <div style="font-size:28px">▱</div>
+            <h3>フロントエンド主軸のフルスタック対応</h3>
+            <p>Vue.js / React / TypeScriptを中心に、Django / Node.jsによるAPI・バッチ開発、AWS / Dockerを含む周辺領域まで横断して対応します。</p>
+          </article>
+          <article class="strength-card">
+            <div class="card-number">02</div>
+            <div style="font-size:28px">⇄</div>
+            <h3>要件整理から実装までの自走力</h3>
+            <p>ディレクター、PM、デザイナーと仕様を整理し、実装方針・テスト観点まで落とし込みます。少数チームで担当領域を限定せず推進してきました。</p>
+          </article>
+          <article class="strength-card">
+            <div class="card-number">03</div>
+            <div style="font-size:28px">⌕</div>
+            <h3>障害調査・保守運用</h3>
+            <p>問い合わせや本番障害に対し、ログ・ソースコードを調査し、原因切り分けから改修・リリース後確認まで継続して対応します。</p>
+          </article>
+          <article class="strength-card">
+            <div class="card-number">04</div>
+            <div style="font-size:28px">↗</div>
+            <h3>リリースまで責任を持つ開発</h3>
+            <p>機能実装だけで終わらず、STG／本番反映、デプロイ、リリース後確認まで担当。月次リリース体制で実務経験があります。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section-pad">
+        <div class="section-heading"><span class="eyebrow">SKILLS</span>
+          <h2>技術スタック</h2>
+          <p>フロントエンドを中心に、API・クラウド・開発支援まで横断して対応します。</p>
+        </div>
+        <div class="skill-grid">
+          <article class="skill-card">
+            <div class="skill-card-head">
+              <h3>Frontend</h3>
+            </div>
+            <div class="tag-list">
+              <span>Vue.js</span><span>React</span><span>TypeScript</span><span>JavaScript</span><span>HTML</span><span>CSS
+                / SCSS</span><span>Tailwind CSS</span><span>Storybook</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-card-head">
+              <h3>Backend</h3>
+            </div>
+            <div class="tag-list"><span>Node.js</span><span>Python</span><span>Django</span><span>REST
+                API</span><span>Batch</span><span>PHP</span><span>Jest</span></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-card-head">
+              <h3>Cloud / Infra</h3>
+            </div>
+            <div class="tag-list"><span>AWS</span><span>Docker</span><span>Cloudflare</span><span>Cloudflare
+                Tunnel</span><span>VPS</span><span>Konoha</span><span>IIJ</span></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-card-head">
+              <h3>Development</h3>
+            </div>
+            <div class="tag-list">
+              <span>GitHub</span><span>Figma</span><span>Backlog</span><span>Slack</span><span>ESLint</span><span>Prettier</span><span>Cursor</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="section-pad section-dark">
+        <div class="section-heading"><span class="eyebrow">EXPERIENCE</span>
+          <h2>職務経歴</h2>
+          <p>Web開発6年以上。新規開発と保守運用の双方を経験しています。</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <p class="timeline-period">2025.04 — Present</p>
+            <div class="timeline-content">
+              <h3>フリーランスエンジニア</h3>
+              <h4>スポーツ関連Webサービス／新規開発・エンハンス・運用保守</h4>
+              <p>Vue.js / TypeScriptを用いたフロントエンド開発を主軸に、Django
+                APIの開発・改修、問い合わせ起点の障害調査、外注コード受け入れ、月次リリースまで担当。4名規模のチームで、要件整理から実装・運用まで横断しています。</p>
+              <div class="tag-list tag-list-dark"><span>Vue
+                  3</span><span>TypeScript</span><span>Django</span><span>Docker</span><span>Cloudflare Tunnel</span>
+              </div>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <p class="timeline-period">2022.04 — 2025.03</p>
+            <div class="timeline-content">
+              <h3>SES企業／システムエンジニア</h3>
+              <h4>ニュースサイト・IoT・保険・社内検索など複数案件</h4>
+              <p>React / Node.js /
+                AWSを用いた統合ニュースサイトの保守・エンハンス、高齢者見守りIoTシステムのバックエンド開発、保険申し込みWebシステムなどを担当。障害時にはCloudWatchログとPython可視化により原因特定に貢献しました。
+              </p>
+              <div class="tag-list tag-list-dark">
+                <span>React</span><span>Node.js</span><span>Python</span><span>AWS</span><span>DynamoDB</span>
+              </div>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <p class="timeline-period">2020.04 — 2022.03</p>
+            <div class="timeline-content">
+              <h3>SIer企業／システムエンジニア</h3>
+              <h4>建設業界向け勤怠管理Webアプリケーション</h4>
+              <p>Vue.jsを用いた業務画面の実装、結合テスト、注文書・請求書PDF作成機能の要件整理と実装を担当。業務Webアプリ開発の基礎と、フロントエンド主担当としての土台を形成しました。</p>
+              <div class="tag-list tag-list-dark"><span>Vue 2</span><span>Next.js</span><span>AWS</span><span>Firebase
+                  Authentication</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="works" class="section-pad">
+        <div class="section-heading"><span class="eyebrow">SELECTED WORKS</span>
+          <h2>公開実績</h2>
+          <p>実装をs担当したランディングページの一部をご紹介します。</p>
+        </div>
+        <div class="project-grid" id="project-grid"></div>
+      </section>
+
+      <section id="ai" class="section-pad ai-section">
+        <div class="ai-grid">
+          <div>
+            <div class="section-heading"><span class="eyebrow">AI EXPERIENCE</span>
+              <h2>AIを、実務の開発プロセスに組み込む。</h2>
+            </div>
+            <p class="ai-lead">AIを単なるコード生成に限定せず、既存仕様の把握、要件整理、障害調査、ドキュメント作成まで活用しています。</p>
+            <div class="ai-icon-stack" aria-hidden="true"><span>AI</span><span>LLM</span><span>DEV</span></div>
+          </div>
+          <div class="ai-list">
+            <article>
+              <div class="ai-dot"></div>
+              <div>
+                <h3>Cursor</h3>
+                <p>既存コードの解析、リファクタリング、コンポーネント実装を支援。</p>
+              </div>
+            </article>
+            <article>
+              <div class="ai-dot"></div>
+              <div>
+                <h3>ChatGPT</h3>
+                <p>要件整理、設計レビュー、障害調査、ドキュメント作成に活用。</p>
+              </div>
+            </article>
+            <article>
+              <div class="ai-dot"></div>
+              <div>
+                <h3>Gemini Code Assist</h3>
+                <p>Vue・TypeScript・Djangoの実装補助、既存仕様の把握。</p>
+              </div>
+            </article>
+            <article>
+              <div class="ai-dot"></div>
+              <div>
+                <h3>LM Studio</h3>
+                <p>ローカルLLMの検証環境を構築。</p>
+              </div>
+            </article>
+            <article>
+              <div class="ai-dot"></div>
+              <div>
+                <h3>Cloudflare Tunnel</h3>
+                <p>ローカル環境を安全に外部公開し、検証環境として利用。</p>
+              </div>
+            </article>
+            <article>
+              <div class="ai-dot"></div>
+              <div>
+                <h3>Animaworks</h3>
+                <p>ローカルLLMとの連携検証を実施。</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section-pad contact-section">
+        <div class="section-heading">
+          <span class="eyebrow">CONTACT</span>
+          <h2>Contact</h2>
+        </div>
+        <ul class="contact-links">
+          <li>
+            <span class="contact-label">GitHub</span>
+            <a href="https://github.com/koukimiura-engineer" target="_blank"
+              rel="noopener noreferrer">github.com/koukimiura-engineer</a>
+          </li>
+          <li>
+            <span class="contact-label">Email</span>
+            <a href="mailto:miurakouki.work@gmail.com">miurakouki.work@gmail.com</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer><span>© <span id="year"></span> TK</span><a href="#top">Back to top ↑</a></footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
